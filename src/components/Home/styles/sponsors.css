@@ -1,0 +1,40 @@
+#sponsors {
+  text-align: center;
+  margin-top: 5rem;
+  /* border: blue 1px solid; */
+}
+
+#sponsors h2 {
+  color: var(--grey);
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+#sponsors .sponsors-imgs {
+  padding: 1rem;
+}
+
+#sponsors .sponsors-imgs img {
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 768px) {
+  #sponsors {
+    margin-top: 5rem;
+  }
+
+  #sponsors h2 {
+    font-size: 2rem;
+  }
+
+  #sponsors .sponsors-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  #sponsors .sponsors-imgs img {
+    width: 33%;
+    padding: 1rem;
+  }
+}

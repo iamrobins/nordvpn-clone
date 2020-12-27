@@ -1,0 +1,180 @@
+#pricing {
+  background: url("../images/header-showcase.jpg") no-repeat center center/cover;
+  height: 100vh;
+  padding: 6rem 0;
+}
+
+#pricing .pricing-info {
+  text-align: center;
+}
+
+#pricing .pricing-info h1 {
+  font-size: 3rem;
+  color: var(--white);
+}
+
+#pricing .pricing-info p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--white);
+}
+
+#pricing .pricing-card {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 0 12rem;
+}
+
+#pricing .pricing-card div {
+  background: white;
+  margin: 1rem 0.4rem;
+  padding: 1rem 0.8rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+#pricing .pricing-card div:first-child {
+  border: 3px solid #4687ff;
+}
+
+#pricing .pricing-card div h3 span {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: var(--grey);
+  vertical-align: top;
+}
+
+#pricing .pricing-card div h3 {
+  font-size: 2.5rem;
+  color: var(--grey);
+  padding: 0.3rem 0;
+}
+
+#pricing .pricing-card div .special {
+  display: inline-block;
+  margin: 0.8rem 0;
+  font-size: 0.9rem;
+  padding: 0.1rem 0.6rem;
+  border-radius: 25px;
+  text-align: center;
+  color: var(--grey);
+  background: #e8e8e9;
+}
+
+#pricing .pricing-card div .best {
+  color: #f64f64;
+  background: #fddce0;
+}
+
+#pricing .pricing-card div .extra {
+  color: #f64f64;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#pricing .pricing-card .btn {
+  display: block;
+  width: 100%;
+  color: var(--grey);
+  padding: 0.5rem 0.8125rem;
+  margin: 1rem 0rem;
+  border: 1px solid var(--grey);
+  border-radius: 3px;
+}
+
+#pricing .pricing-card .btn:hover {
+  color: white;
+  background: var(--grey);
+}
+
+#pricing .pricing-card .offer-btn {
+  color: white;
+  background: #4687ff;
+  border: 1px solid #4687ff;
+}
+
+#pricing .pricing-card .offer-btn:hover {
+  background: #4687ff;
+  opacity: 0.9;
+}
+
+#pricing .pricing-card p .price-red {
+  color: #f64f64;
+  text-decoration: line-through;
+}
+
+#pricing .pricing-card div .mobile-price {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #pricing {
+    padding: 4rem 0;
+  }
+
+  #pricing .pricing-info h1 {
+    font-size: 2rem;
+  }
+
+  #pricing .pricing-info p {
+    font-size: 1rem;
+  }
+
+  #pricing .pricing-card {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  #pricing .pricing-card div {
+    margin: auto;
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+
+  #pricing .pricing-card div p:first-child {
+    position: absolute;
+  }
+
+  #pricing .pricing-card div .special {
+    position: absolute;
+    right: 1rem;
+    top: 0;
+  }
+
+  #pricing .pricing-card div .extra {
+    color: #f64f64;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    padding: 0.2rem 0;
+    text-align: left;
+  }
+
+  #pricing .pricing-card div .pc-price {
+    display: none;
+  }
+
+  #pricing .pricing-card div .mobile-price {
+    display: block;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  #pricing .pricing-card div .mobile-price-normal {
+    padding-top: 2rem;
+  }
+
+  #pricing .pricing-card div p:last-child {
+    display: none;
+  }
+}
+
+@media (min-height: 900px) {
+  #pricing {
+    padding-top: 15rem;
+  }
+}

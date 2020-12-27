@@ -1,0 +1,55 @@
+#performance {
+  display: flex;
+  padding: 0 6rem;
+  /* border: 1px green solid; */
+}
+
+#performance .performance-info {
+  padding-top: 5rem;
+}
+
+#performance .performance-info p {
+  width: 70%;
+  padding: 1.5rem 0rem;
+}
+
+#performance .performance-img img {
+  display: block;
+  width: 100%;
+}
+
+#performance .performance-img {
+  /* margin-bottom: 10rem;  eski vaja se hua tha sab padding vala panga*/
+}
+
+#performance .performance-info,
+#performance .performance-img {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  #performance {
+    flex-direction: column-reverse;
+    padding: 0;
+    margin-top: 3rem;
+    /* margin-top extra add kiya he bss baki ye aur features bilkul same he */
+    text-align: center;
+  }
+
+  #performance .performance-info {
+    padding-top: 0rem;
+  }
+
+  #performance .performance-info p {
+    width: 100%;
+    padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+  }
+
+  #performance .btn-secondary {
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,65 @@
+#showcase {
+  display: flex;
+  background: url("../images/header-showcase.jpg") no-repeat center center/cover;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#showcase .offer-details {
+  padding-left: 2rem;
+}
+
+#showcase .main-heading {
+  font-size: 4.5rem;
+  margin-bottom: 3rem;
+  color: var(--white);
+}
+
+#showcase .deal-btn {
+  color: var(--white);
+  font-size: 1rem;
+  display: inline-block;
+  font-weight: 600;
+  background: #f64f64;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+}
+#showcase .deal-btn:hover {
+  background: #fa95a2;
+}
+
+#showcase .offer-img {
+  padding: 1rem;
+}
+
+#showcase p {
+  padding-top: 1rem;
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  #showcase .offer-img {
+    display: none;
+  }
+
+  #showcase .offer-details {
+    padding: 0;
+    text-align: center;
+  }
+
+  #showcase .main-heading {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+  }
+
+  #showcase .deal-btn {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
+
+  #showcase p {
+    padding-top: 2rem;
+    font-size: 1.2rem;
+  }
+}

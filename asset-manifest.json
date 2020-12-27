@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/nordvpn-clone/static/css/main.39eb24ad.chunk.css",
-    "main.js": "/nordvpn-clone/static/js/main.2f1c1793.chunk.js",
-    "main.js.map": "/nordvpn-clone/static/js/main.2f1c1793.chunk.js.map",
+    "main.css": "/nordvpn-clone/static/css/main.bd04f420.chunk.css",
+    "main.js": "/nordvpn-clone/static/js/main.b21e395d.chunk.js",
+    "main.js.map": "/nordvpn-clone/static/js/main.b21e395d.chunk.js.map",
     "runtime-main.js": "/nordvpn-clone/static/js/runtime-main.302084ea.js",
     "runtime-main.js.map": "/nordvpn-clone/static/js/runtime-main.302084ea.js.map",
     "static/js/2.d2e85fde.chunk.js": "/nordvpn-clone/static/js/2.d2e85fde.chunk.js",
     "static/js/2.d2e85fde.chunk.js.map": "/nordvpn-clone/static/js/2.d2e85fde.chunk.js.map",
     "index.html": "/nordvpn-clone/index.html",
-    "static/css/main.39eb24ad.chunk.css.map": "/nordvpn-clone/static/css/main.39eb24ad.chunk.css.map",
+    "static/css/main.bd04f420.chunk.css.map": "/nordvpn-clone/static/css/main.bd04f420.chunk.css.map",
     "static/js/2.d2e85fde.chunk.js.LICENSE.txt": "/nordvpn-clone/static/js/2.d2e85fde.chunk.js.LICENSE.txt",
     "static/media/bbc.0748e92a.svg": "/nordvpn-clone/static/media/bbc.0748e92a.svg",
     "static/media/business-insider.e30fed41.svg": "/nordvpn-clone/static/media/business-insider.e30fed41.svg",
@@ -23,6 +23,7 @@
     "static/media/man-browsing-world-flags.a84866ac.webp": "/nordvpn-clone/static/media/man-browsing-world-flags.a84866ac.webp",
     "static/media/man-room-devices-secured.93f78ff4.webp": "/nordvpn-clone/static/media/man-room-devices-secured.93f78ff4.webp",
     "static/media/man-sitting-on-cloud.03ecc124.webp": "/nordvpn-clone/static/media/man-sitting-on-cloud.03ecc124.webp",
+    "static/media/offer-img.02a80a90.webp": "/nordvpn-clone/static/media/offer-img.02a80a90.webp",
     "static/media/pcmag-ec.967eecfa.svg": "/nordvpn-clone/static/media/pcmag-ec.967eecfa.svg",
     "static/media/phillip-defranco.d8f7ac03.webp": "/nordvpn-clone/static/media/phillip-defranco.d8f7ac03.webp",
     "static/media/tedx.0e0cd43c.svg": "/nordvpn-clone/static/media/tedx.0e0cd43c.svg",
@@ -33,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.302084ea.js",
     "static/js/2.d2e85fde.chunk.js",
-    "static/css/main.39eb24ad.chunk.css",
-    "static/js/main.2f1c1793.chunk.js"
+    "static/css/main.bd04f420.chunk.css",
+    "static/js/main.b21e395d.chunk.js"
   ]
 }

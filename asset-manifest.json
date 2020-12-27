@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nordvpn-clone/static/css/main.39eb24ad.chunk.css",
-    "main.js": "/nordvpn-clone/static/js/main.afde9f45.chunk.js",
-    "main.js.map": "/nordvpn-clone/static/js/main.afde9f45.chunk.js.map",
+    "main.js": "/nordvpn-clone/static/js/main.2f1c1793.chunk.js",
+    "main.js.map": "/nordvpn-clone/static/js/main.2f1c1793.chunk.js.map",
     "runtime-main.js": "/nordvpn-clone/static/js/runtime-main.302084ea.js",
     "runtime-main.js.map": "/nordvpn-clone/static/js/runtime-main.302084ea.js.map",
     "static/js/2.d2e85fde.chunk.js": "/nordvpn-clone/static/js/2.d2e85fde.chunk.js",
@@ -10,12 +10,30 @@
     "index.html": "/nordvpn-clone/index.html",
     "static/css/main.39eb24ad.chunk.css.map": "/nordvpn-clone/static/css/main.39eb24ad.chunk.css.map",
     "static/js/2.d2e85fde.chunk.js.LICENSE.txt": "/nordvpn-clone/static/js/2.d2e85fde.chunk.js.LICENSE.txt",
-    "static/media/pricing.css": "/nordvpn-clone/static/media/header-showcase.dfe70d17.jpg"
+    "static/media/bbc.0748e92a.svg": "/nordvpn-clone/static/media/bbc.0748e92a.svg",
+    "static/media/business-insider.e30fed41.svg": "/nordvpn-clone/static/media/business-insider.e30fed41.svg",
+    "static/media/buzzfeed.dd284af1.svg": "/nordvpn-clone/static/media/buzzfeed.dd284af1.svg",
+    "static/media/cnet.25c764c9.svg": "/nordvpn-clone/static/media/cnet.25c764c9.svg",
+    "static/media/dave-taylor.857173ba.webp": "/nordvpn-clone/static/media/dave-taylor.857173ba.webp",
+    "static/media/elric-phares.8ec2ae45.webp": "/nordvpn-clone/static/media/elric-phares.8ec2ae45.webp",
+    "static/media/entrepreneur.b27ee10b.svg": "/nordvpn-clone/static/media/entrepreneur.b27ee10b.svg",
+    "static/media/forbes.a2fe42ed.svg": "/nordvpn-clone/static/media/forbes.a2fe42ed.svg",
+    "static/media/pricing.css": "/nordvpn-clone/static/media/header-showcase.dfe70d17.jpg",
+    "static/media/huffington-post.6b4bb3b0.svg": "/nordvpn-clone/static/media/huffington-post.6b4bb3b0.svg",
+    "static/media/man-browsing-world-flags.a84866ac.webp": "/nordvpn-clone/static/media/man-browsing-world-flags.a84866ac.webp",
+    "static/media/man-room-devices-secured.93f78ff4.webp": "/nordvpn-clone/static/media/man-room-devices-secured.93f78ff4.webp",
+    "static/media/man-sitting-on-cloud.03ecc124.webp": "/nordvpn-clone/static/media/man-sitting-on-cloud.03ecc124.webp",
+    "static/media/pcmag-ec.967eecfa.svg": "/nordvpn-clone/static/media/pcmag-ec.967eecfa.svg",
+    "static/media/phillip-defranco.d8f7ac03.webp": "/nordvpn-clone/static/media/phillip-defranco.d8f7ac03.webp",
+    "static/media/tedx.0e0cd43c.svg": "/nordvpn-clone/static/media/tedx.0e0cd43c.svg",
+    "static/media/tnw.8e93e1c7.svg": "/nordvpn-clone/static/media/tnw.8e93e1c7.svg",
+    "static/media/wired.a741d99f.svg": "/nordvpn-clone/static/media/wired.a741d99f.svg",
+    "static/media/yahoo-tech.4ce17cbb.svg": "/nordvpn-clone/static/media/yahoo-tech.4ce17cbb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.302084ea.js",
     "static/js/2.d2e85fde.chunk.js",
     "static/css/main.39eb24ad.chunk.css",
-    "static/js/main.afde9f45.chunk.js"
+    "static/js/main.2f1c1793.chunk.js"
   ]
 }

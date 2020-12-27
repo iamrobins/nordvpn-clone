@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/header.css";
+import offerImg from "./images/offer-img.webp";
 
 function Header() {
   return (
@@ -16,7 +17,7 @@ function Header() {
         </p>
       </div>
       <div className="offer-img">
-        <img src="/images/offer-img.webp" alt="offer" />
+        <img src={offerImg} alt="offer" />
       </div>
     </header>
   );

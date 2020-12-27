@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/features.css";
+import featuresIMG from "./images/man-sitting-on-cloud.webp";
 
 function Features() {
   return (
@@ -16,7 +17,7 @@ function Features() {
         </a>
       </div>
       <div className="features-img">
-        <img src="/images/man-sitting-on-cloud.webp" alt="features" />
+        <img src={featuresIMG} alt="features" />
       </div>
     </section>
   );

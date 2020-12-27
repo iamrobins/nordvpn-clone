@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/performance.css";
+import performanceIMG from "./images/man-browsing-world-flags.webp";
 
 function Performance() {
   return (
@@ -16,7 +17,7 @@ function Performance() {
         </a>
       </div>
       <div className="performance-img">
-        <img src="/images/man-browsing-world-flags.webp" alt="performance" />
+        <img src={performanceIMG} alt="performance" />
       </div>
     </section>
   );

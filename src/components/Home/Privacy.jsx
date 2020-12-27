@@ -1,11 +1,12 @@
 import React from "react";
 import "./styles/privacy.css";
+import privacyIMG from "./images/man-room-devices-secured.webp";
 
 function Privacy() {
   return (
     <section id="privacy">
       <div className="privacy-img">
-        <img src="/images/man-room-devices-secured.webp" alt="privacy" />
+        <img src={privacyIMG} alt="privacy" />
       </div>
 
       <div className="privacy-info">

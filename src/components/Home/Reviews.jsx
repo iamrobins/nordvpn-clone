@@ -1,5 +1,8 @@
 import React from "react";
 import "./styles/reviews.css";
+import philip from "./images/phillip-defranco.webp";
+import elric from "./images/elric-phares.webp";
+import dave from "./images/dave-taylor.webp";
 
 function Reviews() {
   return (
@@ -11,7 +14,7 @@ function Reviews() {
 
       <div className="reviews-imgs">
         <div className="review-1">
-          <img src="/images/phillip-defranco.webp" alt="phillip-review" />
+          <img src={philip} alt="phillip-review" />
           <p className="review-title">
             “You should 100% be using a VPN!”
             <br />
@@ -19,7 +22,7 @@ function Reviews() {
           </p>
         </div>
         <div className="review-2">
-          <img src="/images/elric-phares.webp" alt="elric-review" />
+          <img src={elric} alt="elric-review" />
           <p className="review-title">
             “Never feel unsafe online, wherever you are!”
             <br />
@@ -27,7 +30,7 @@ function Reviews() {
           </p>
         </div>
         <div className="review-3">
-          <img src="/images/dave-taylor.webp" alt="dave-review" />
+          <img src={dave} alt="dave-review" />
           <p className="review-title">
             “With NordVPN, you can just launch it and forget about it!”
             <br />

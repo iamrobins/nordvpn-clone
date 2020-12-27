@@ -1,11 +1,12 @@
 import React from "react";
 import "./styles/navbar.css";
+import logo from "./images/nordvpn.png";
 
 function Navbar() {
   return (
     <nav id="navbar">
       <div className="logo">
-        <img id="logo-img" src="/images/nordvpn.png" alt="vpn-logo" />
+        <img id="logo-img" src={logo} alt="vpn-logo" />
         <h1>NordVPN</h1>
       </div>
       <ul>
